@@ -123,3 +123,9 @@ endif
 
 set guifont=Monaco:h18
 colorscheme OceanicNext
+
+" remap esc to kj in insert and visual mode
+inoremap kj <esc>
+vnoremap kj <esc>
+cnoremap kj <C-C>
+set timeoutlen=500
